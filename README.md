@@ -31,9 +31,9 @@ A valid and Legit MAC Address.
 ![InkedScreenshot at 2022-05-20 13-11-49_LI](https://user-images.githubusercontent.com/85066116/169480278-39e2a91f-cb50-4d76-9bfc-3713e4234625.jpg)
 
 
-**Step 5:** First give permissions by "chmod +x randmacgen.sh" and Check if its changing MAC Address perfectly or not by running "sudo ./randmacgen.sh"
+**Step 5:** First give permissions by **"chmod +x randmacgen.sh"** and Check if its changing MAC Address perfectly or not by running **"sudo ./randmacgen.sh"**
 
-**Step 6:** Run "sudo nano /etc/systemd/system/randmacgen.service", Once the file is created Paste the code below;
+**Step 6:** Run **"sudo nano /etc/systemd/system/randmacgen.service"**, Once the file is created Paste the code below;
 
 [Unit]
 Description=Random MAC Address Generator
@@ -47,11 +47,11 @@ WantedBy=multi-user.target
 
 save this.
 
-**Step 7:** Run "sudo chmod 644 /etc/systemd/system/randmacgen.service"
+**Step 7:** Run **"sudo chmod 644 /etc/systemd/system/randmacgen.service"**
 
-**Step 8:** Run "sudo service randmacgen start"
+**Step 8:** Run **"sudo service randmacgen start"**
 
-**Step 9:** Run "sudo systemctl enable randmacgen"
+**Step 9:** Run **"sudo systemctl enable randmacgen"**
 
 **Now Reboot your system**
 
