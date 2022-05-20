@@ -31,7 +31,8 @@ A valid and Legit MAC Address.
 ![InkedScreenshot at 2022-05-20 13-11-49_LI](https://user-images.githubusercontent.com/85066116/169480278-39e2a91f-cb50-4d76-9bfc-3713e4234625.jpg)
 
 
-**Step 5:** Check if its changing perfectly or not by running "sudo ./randmacgen.sh"
+**Step 5:** First give permissions by "chmod +x randmacgen.sh" and Check if its changing MAC Address perfectly or not by running "sudo ./randmacgen.sh"
+
 **Step 6:** Run "sudo nano /etc/systemd/system/randmacgen.service", Once the file is created Paste the code below;
 
 [Unit]
