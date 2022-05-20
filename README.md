@@ -36,13 +36,20 @@ A valid and Legit MAC Address.
 **Step 6:** Run **"sudo nano /etc/systemd/system/randmacgen.service"**, Once the file is created Paste the code below;
 
 [Unit]
+
 Description=Random MAC Address Generator
 
+
 [Service]
-Type=simpl
-ExecStart=/bin bash **/directory of the random mac generator**
+
+Type=simple
+
+ExecStart=/bin/bash **"/home/rogu/Macchanger/randmacgen.sh"**(Chage the bold loaction with your file loaction)
+
+
 
 [Install]
+
 WantedBy=multi-user.target
 
 save this.
